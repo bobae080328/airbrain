@@ -1,0 +1,127 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 115px;
+  padding-leff: 0;
+  margin: 0;
+  background-color: #a090b9;
+  color: #422b09;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 115px;
+  width: 100%;
+  background-color: #fffcf8;
+}
+
+.copyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fffcf8;
+}
+
+.content-area {
+  width: 1280px;
+  height: 820px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav .content-area {
+  height: 115px;
+  background-color: transparent;
+}
+
+.copyright .content-area {
+  background-color: transparent;
+  height: 50px;
+  font-size: 10px;
+  text-align:center;
+}
+
+a {
+  text-decoration: none;
+  color: #422b09;
+}
+
+nav .content-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#logo {
+  margin-left:30px;
+  margin-top: 30px;
+}
+
+#hamburger {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+.page1-content {
+  height: 650px;
+  display: grid;
+  grid-template-columns: 130px 350px 100px 1fr 130px;
+}
+
+.page2-content {
+  height: 650px;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr 100px;
+}
+
+.page3-content {
+  height: 650px;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+}
+
+.mockup {
+  width: 350px;
+  height: 670px;
+  background-image: url(img/mobile_mockup.png);
+}
+
+.catch {
+  display: grid;
+  grid-template-rows: 1fr 1fr 150px;
+}
+
+#catchphrase {
+  font-size: 65px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  padding-top: 60px;
+}
+
+#catchphrase2 {
+  font-size: 17px;
+  padding-top: 120px;
+  padding-left: 10px;
+}
+
+#button {
+  background-image: url(img/button.png);
+  width: 216px;
+  height: 61px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mockup #in {
+  width: 270px;
+  height: 490px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.illust {
+  display: grid;
+  grid-template-columns: 1fr 800px ;
+}
